@@ -1,0 +1,1104 @@
+/*=====================================
+            Common css Start
+======================================*/
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.clr {
+    clear: both;
+}
+
+/*=====================================
+            Common css End
+======================================*/
+
+/*=====================================
+            Menu css Start
+======================================*/
+
+.overly {
+    background: rgba(60, 47, 97, 0.85);
+    position: relative;
+    z-index: 1;
+}
+
+.menu_full {
+    height: 80px;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 160px;
+    line-height: 80px;
+    float: left;
+}
+
+.main_menu {
+    width: 800px;
+    float: left;
+}
+
+.main_menu ul {
+    display: flex;
+    text-align: center;
+    float: right;
+}
+
+.main_menu ul li a {
+    font-size: 13px;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    text-transform: uppercase;
+    line-height: 80px;
+    margin-left: 22px;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+}
+
+.main_menu ul li a:hover {
+    color: #00e0d0;
+}
+
+/*=====================================
+            Menu css End
+======================================*/
+
+/*=====================================
+            banner_text css Start
+======================================*/
+.banner_text_full {
+    text-align: center;
+    padding: 138px 0 207px;
+}
+
+.banner_text h1 {
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: 900;
+    font-family: 'Playfair Display', serif;
+    padding-bottom: 23px;
+    position: relative;
+}
+
+.banner_text h1::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 50px;
+    transform: translateX(-50%);
+    border: 1px solid #00e0d0;
+}
+
+.banner_text p {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    line-height: 24px;
+    padding: 27px 118px 52px;
+}
+
+.banner_text a {
+    color: #00e0d0;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Hammersmith One', sans-serif;
+    border: 1px solid #00e0d0;
+    padding: 11px 15px;
+    border-radius: 3px;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+}
+
+.banner_text a:hover {
+    background: #00e0d0;
+    color: #ffffff;
+}
+
+/*=====================================
+            Banner_text css End
+======================================*/
+
+/*=====================================
+            Banner_slilder css Start
+======================================*/
+.slider_full {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.slider_main {
+    background: url(../images/Banner-main.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 687px;
+}
+
+.slider_2 {
+    background: url(../images/Banner-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 687px;
+}
+
+.slider_3 {
+    background: url(../images/Banner-3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 687px;
+}
+
+.slider_4 {
+    background: url(../images/Banner-4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 687px;
+}
+
+.slider_full .slick-dots li button {
+    font-size: 0;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    border: 1px solid #bbbabc;
+    margin-left: 5px;
+    background: 0;
+    cursor: pointer;
+}
+
+.slider_full .slick-dots .slick-active button {
+    border: 1px solid #00e0d0;
+    background: #00e0d0;
+}
+
+.slider_full .slick-dots {
+    display: flex;
+    position: absolute;
+    left: 50%;
+    bottom: 30px;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+/*=====================================
+            Banner_slider css End
+======================================*/
+
+/*=====================================
+            Story css Start
+======================================*/
+.story_full {
+    padding: 70px 0;
+}
+
+.story_shape {
+    width: 240px;
+    margin-left: 65px;
+    float: left;
+}
+
+.story_shape img {
+    width: 100%;
+}
+
+.story_text {
+    width: 514px;
+    text-align: left;
+    float: left;
+    margin-left: 100px;
+}
+
+.story_text h2 {
+    color: #413d4b;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+    padding-bottom: 19px;
+    margin-top: -7px;
+}
+
+.story_text p {
+    font-size: 14px;
+    color: #413d4b;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    line-height: 22px;
+}
+
+.story_text p span {
+    display: block;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.story_text a {
+    color: #00e0d0;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Hammersmith One', sans-serif;
+    padding: 14px 15px;
+    border: 1px solid #00e0d0;
+    border-radius: 3px;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+}
+
+.story_text a:hover {
+    background: #00e0d0;
+    color: #fff;
+}
+
+/*=====================================
+            Story css End
+======================================*/
+
+/*=====================================
+            Watch css Start
+======================================*/
+.watch_full {
+    background: url(../images/Banner-Video.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 202px 0;
+    position: relative;
+    z-index: 1;
+}
+
+.watch_full::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(35, 22, 72, 0.85);
+    z-index: -1;
+}
+
+.watch_button {
+    text-align: center;
+}
+
+.watch_button a {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    text-align: center;
+    line-height: 110px;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+}
+
+.watch_button a i {
+    color: #fff;
+    font-size: 45px;
+    padding-left: 7px;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+}
+
+.watch_button a:hover {
+    border: 4px solid #00e0d0;
+    color: #00e0d0;
+}
+
+.watch_button a:hover i {
+    color: #00e0d0;
+    transform: rotate(45deg);
+}
+
+.watch_button p {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 31px;
+}
+
+/*=====================================
+            Watch css End
+======================================*/
+
+/*=====================================
+            Expertise css Start
+======================================*/
+.expertise_full {
+    padding: 60px 0 95px;
+}
+
+.expertise_head {
+    text-align: center;
+    position: relative;
+}
+
+.expertise_head h2 {
+    color: #413d4b;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+    padding-bottom: 5px;
+}
+
+.expertise_head p {
+    color: #2f2d35;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Playfair Display', serif;
+    padding-bottom: 18px;
+}
+
+.expertise_head::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 50px;
+    border: 2px solid #c6c4c9;
+
+}
+
+.expertise_inner ul {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 84px;
+}
+
+.expertise_inner ul li {
+    width: 30%;
+}
+
+.expertise_inner ul li .epertise_item i {
+    background: -webkit-linear-gradient(0deg, #00dfd0, #52a9cf);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+}
+
+.expertise_inner ul li .epertise_item h3 {
+    color: #413d4b;
+    font-size: 14px;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    padding: 31px 0 15px;
+}
+
+.expertise_inner ul li .epertise_item p {
+    color: #333333;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    line-height: 22px;
+    padding: 0 10px;
+}
+
+.mar_botto {
+    margin-bottom: 15px;
+}
+
+.expertise_inner ul li .epertise_item {
+    cursor: pointer;
+    padding: 30px 0;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+}
+
+.expertise_inner ul li .epertise_item:hover {
+    box-shadow: 0 0 5px rgba(13, 13, 13, 0.87);
+}
+
+/*=====================================
+            Expertise css End
+======================================*/
+
+
+/*=====================================
+            Team css Start
+======================================*/
+.team_full {
+    background: url(../images/Team-banner.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 70px 0;
+    position: relative;
+    z-index: 1;
+}
+
+.team_full::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(53, 45, 85, 0.85);
+    z-index: -1;
+}
+
+.team_head {
+    text-align: center;
+    position: relative;
+}
+
+.team_head h2 {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+    padding-bottom: 5px;
+}
+
+.team_head p {
+    color: #f9f9f9;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Playfair Display', serif;
+    padding-bottom: 18px;
+}
+
+.team_head::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 50px;
+    border: 2px solid #655c80;
+
+}
+
+.team_inner {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 47px;
+}
+
+.team_inner .team_member {
+    cursor: pointer;
+    width: 22%;
+    text-align: center;
+    border: 1px solid #78768c;
+}
+
+.team_inner .team_member img {
+    width: 100%;
+    background: #f4f4f6;
+}
+
+.team_inner .team_member h3 {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 18px;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+}
+
+.team_inner .team_member p {
+    color: #fafafa;
+    font-size: 13px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    padding: 5px 0 21px;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+}
+
+.team_inner .team_member:hover h3,
+.team_inner .team_member:hover p {
+    color: #00e0d0;
+}
+
+.team_inner_button {
+    text-align: center;
+}
+
+.team_inner_button p {
+    color: #f3f3f3;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    padding: 67px 0 27px;
+}
+
+.team_inner_button a {
+    color: #00e0d0;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Hammersmith One', sans-serif;
+    border: 1px solid #00e0d0;
+    border-radius: 3px;
+    padding: 10px 14px;
+    transition: all linear .4s;
+    -webkit-transition: all linear.4s;
+}
+
+.team_inner_button a:hover {
+    color: #ffffff;
+    background: #00e0d0;
+}
+
+/*=====================================
+            Team css End
+======================================*/
+
+
+/*=====================================
+            Work css Start
+======================================*/
+.work_full {
+    padding: 59px 0 0;
+}
+
+.work_head {
+    text-align: center;
+    position: relative;
+}
+
+.work_head::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 50px;
+    border: 2px solid #c6c4c9;
+}
+
+.work_head h2 {
+    color: #413d4b;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+}
+
+.work_head p {
+    color: #2f2d35;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Playfair Display', serif;
+    padding: 6px 0 19px;
+}
+
+.work_inner {
+    text-align: center;
+    padding: 28px 0 50px;
+}
+
+.work_inner a {
+    color: #413d4b;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Myriad Pro';
+    padding: 9px 9px;
+    border: 1px solid #dddddd;
+    margin-left: 5px;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+}
+
+.work_inner a:hover {
+    color: #00e0d0;
+    border: 1px solid #00e0d0;
+}
+
+.work_item {
+    padding: 0 0 70px;
+}
+
+.work_item ul li {
+    display: flex;
+}
+
+.work_item_inner_1 {
+    width: 17%;
+    height: 200px;
+    background: #b6b6b6;
+}
+
+.work_item_inner_2 {
+    width: 17%;
+    height: 200px;
+    background: #acacac;
+}
+
+.work_item_inner_3 {
+    width: 17%;
+    height: 200px;
+    background: #a1a1a1;
+}
+
+.work_item_inner_4 {
+    width: 17%;
+    height: 200px;
+    background: #8a8a8a;
+}
+
+.work_item_inner_5 {
+    width: 17%;
+    height: 200px;
+    background: #b6b6b6;
+}
+
+.work_item_inner_6 {
+    width: 17%;
+    height: 200px;
+    background: #a4a4a4;
+}
+
+.work_item_cont {
+    text-align: center;
+}
+
+.work_item_cont a {
+    color: #00e0d0;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Hammersmith One', sans-serif;
+    border: 1px solid #00e0d0;
+    padding: 10px 25px;
+    border-radius: 3px;
+    margin-top: 70px;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+}
+
+.work_item_cont a:hover {
+    color: #fff;
+    background: #00e0d0;
+}
+
+/*=====================================
+            Work css End
+======================================*/
+
+/*=====================================
+            Testimoni css Start
+======================================*/
+.testimoni_full {
+    background: url(../images/Team-banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 82px 0 129px;
+    position: relative;
+    z-index: 1;
+}
+
+.testimoni_overly {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(27, 18, 60, 0.85);
+    z-index: -1;
+}
+
+.text_banner_item {
+    text-align: center;
+}
+
+.text_banner_item h3 {
+    color: #ffffff;
+    font-size: 100px;
+    font-weight: 400;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: -31px;
+}
+
+.text_banner_item p {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Playfair Display', serif;
+    line-height: 26px;
+    padding: 0px 110px;
+}
+
+.text_banner_item h4 {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 33px;
+}
+
+.text_banner_item span {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+
+.text_banner_main {
+    position: relative;
+}
+
+.text_banner_main .slick-dots {
+    display: flex;
+    position: absolute;
+    left: 48.5%;
+    bottom: -62px;
+    transform: translateX(-50%);
+}
+
+.text_banner_main .slick-dots li button {
+    border: 6px solid #ffffff;
+    background: #fff;
+    height: 21px;
+    width: 21px;
+    border-radius: 50%;
+    font-size: 0;
+    margin-left: 29px;
+    cursor: pointer;
+}
+
+.text_banner_main .slick-dots .slick-active button {
+    background: #00e0d0;
+}
+
+/*=====================================
+            Testimoni css End
+======================================*/
+
+/*=====================================
+            Contact css Start
+======================================*/
+.contact_full {
+    padding: 60px 0 70px;
+}
+
+.client {
+    width: 40.5%;
+    float: left;
+    margin-left: 100px;
+}
+
+.client h2 {
+    color: #413d4b;
+    font-weight: 700;
+    font-size: 22px;
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    padding-bottom: 52px;
+    text-align: left;
+}
+
+.client ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.client ul li a {
+    display: block;
+    margin-bottom: 49px;
+    text-align: center;
+}
+
+.client ul li .mar_botto {
+    margin-bottom: 0;
+}
+
+.client ul li .mar_top {
+    margin-top: -13px;
+}
+
+.client ul li .Gucci_mar_top {
+    margin-top: 10px;
+}
+
+.contact {
+    width: 49%;
+    float: left;
+}
+
+.contact h2 {
+    color: #413d4b;
+    font-weight: 700;
+    font-size: 22px;
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    padding-bottom: 40px;
+    text-align: left;
+}
+
+.contact input {
+    height: 43px;
+    width: 100%;
+    display: block;
+    border: 1px solid #e5e5e5;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+}
+
+.contact input::placeholder {
+    color: #413d4b;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    line-height: 43px;
+}
+
+.contact textarea {
+    width: 100%;
+    height: 198px;
+    resize: none;
+    border: 1px solid #e5e5e5;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-top: 16px;
+}
+
+.contact textarea::placeholder {
+    color: #413d4b;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contact button {
+    color: #00e0d0;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Hammersmith One', sans-serif;
+    padding: 9px 20px;
+    background: 0;
+    border: 1px solid #00e0d0;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.input_border_color {
+    border: 1px solid #00e0d0;
+}
+
+/*=====================================
+            Contact css End
+======================================*/
+
+/*=====================================
+            Footer css Start
+======================================*/
+.footer_full {
+    background: url(../images/footer_banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 70px 0;
+    position: relative;
+    z-index: 1;
+}
+
+.footer_full::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: -webkit-linear-gradient(0deg, rgba(17, 13, 49, 0.85), rgba(78, 55, 110, 0.85));
+    z-index: -1;
+}
+
+.footer_head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_head .logo_descrip {
+    width: 310px;
+    text-align: left;
+}
+
+.footer_head .logo_descrip p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    line-height: 26px;
+    padding-top: 20px;
+    padding: 20px 18px 0 0;
+}
+
+.studio {
+    width: 365px;
+    text-align: left;
+}
+
+.studio h3 {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px 0 29px;
+}
+
+.studio p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    line-height: 26px;
+}
+
+.studio p span {
+    display: block;
+    padding-left: 28px;
+}
+
+.studio p i {
+    display: inline-block;
+    font-size: 14px;
+    padding-right: 16px;
+}
+
+.studio p .mar_r {
+    margin-right: -3px;
+    padding-top: 10px;
+}
+
+.stay_touche {
+    width: 288px;
+    text-align: left;
+}
+
+.stay_touche h3 {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px 0 29px;
+}
+
+.stay_touche input {
+    width: 209px;
+    height: 43px;
+    background: 0;
+    border: 1px solid #9f98b1;
+    padding-left: 15px;
+    color: #fff;
+    display: inline-block;
+}
+
+.stay_touche input::placeholder {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    line-height: 43px;
+}
+
+.stay_touche button {
+    height: 45px;
+    width: 69px;
+    background: #9c93ad;
+    border: 0;
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.stay_touche button i {
+    font-size: 18px;
+}
+
+.social {
+    padding-top: 27px;
+}
+
+.social a {
+    height: 35px;
+    width: 35px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 15px;
+    line-height: 35px;
+    text-align: center;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    margin-left: 3px;
+}
+
+.social a .mar_left {
+    margin-left: 0;
+}
+
+.social a:hover {
+    color: #00e0d0;
+    border: 1px solid #00e0d0;
+}
+
+.footer_inner {
+    padding-top: 62px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_inner span {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer_inner a {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+}
+
+.footer_inner a:hover {
+    color: #00e0d0;
+}
+
+.footer_inner .mar_left {
+    margin-left: -452px;
+}
+
+/*=====================================
+            Footer css End
+======================================*/
